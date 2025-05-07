@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
 
 }
 .main{
@@ -29,7 +30,7 @@
     padding: 10px;
     
 }
-a{
+.dna{
     text-decoration: none;
     color: black;
     display: flex;
@@ -38,10 +39,7 @@ a{
 .hero-img{
     width: 99vw;
     height: 100vh;
-
 }
-
-
 .hero-txt{
     display: flex;
     align-items: center;
@@ -73,13 +71,14 @@ a{
 }
 .con-info{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: top;
     flex-direction: column;
     padding: 20px;
-
-
-
+}
+.con-info a{
+    display: flex;
+    align-items: center;
 }
 .coman{
     color: white;
@@ -87,8 +86,67 @@ a{
 }
 .pro-services{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     flex-direction: column;
     padding: 20px;
 }
+.bck-img{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.menu-btn{
+    background-color: black;
+    width: 22px;
+    height: 2px;
+    margin: 6px 1px;
+}
+.mangilaal a{
+    display: block;
+}
+.dn{
+    display: none;
+}
+@media (max-width:1304px){
+    .mangilaal{
+        justify-content: end;
+    }
+    .mangilaal a{
+        display: none;
+    }
+    .dn{
+        display: block;
+    }
+}
+
+@media (max-width :452px) {
+    .hariprasad{
+        font-size: 18px;
+    }
+    .bck-img{
+        width: 80%;
+    }
+    
+}
+@media (max-width :412px) {
+  .fo-br-end{
+    flex-direction: column-reverse;
+  }   
+}
+
+
+
+/* @media(max-width:900px){ */
+    /* .hero-section{ */
+        /* flex-direction: row; */
+    /* } */
+    /* .hero-img{ */
+        /* width: 100%; */
+    /* } */
+    /* .hero-txt{ */
+        /* width: 100%; */
+    /* } */
+/* } */
